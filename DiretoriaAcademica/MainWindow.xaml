@@ -1,0 +1,34 @@
+﻿<Window x:Class="DiretoriaAcademica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiretoriaAcademica"
+        mc:Ignorable="d"
+        Title="Diretoria Acadêmica" Height="250" Width="300">
+    <Grid>
+        <Menu>
+            <MenuItem Header="Cadastros">
+                <MenuItem Header="Diretoria..." Click="Diretoria_click"></MenuItem>
+                <MenuItem Header="Cursos..." Click="Curso_click"></MenuItem>
+                <MenuItem Header="Professores..." Click="Professor_click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Operações">
+                <MenuItem Header="Registrar Curso..." Click="RegistroC_click"></MenuItem>
+                <MenuItem Header="Registrar Professor..." Click="RegistroP_click"></MenuItem>
+                <MenuItem Header="Listar Cursos..." Click="ListaC_click"></MenuItem>
+                <MenuItem Header="Listar Professores..." Click="ListaP_click"></MenuItem>
+            </MenuItem>
+
+        </Menu>
+        <Button Visibility="Hidden"  Click="Diretoria_click" Content="Cadastrar Diretoria" HorizontalAlignment="Left" Height="27" Margin="15,59,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Visibility="Hidden"  Click="Curso_click" Content="Cadastrar Curso" HorizontalAlignment="Left" Height="26" Margin="127,110,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Visibility="Hidden"  Click="Professor_click" Content="Cadastrar Professor" HorizontalAlignment="Left" Height="27" Margin="15,96,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Visibility="Hidden"  Click="RegistroP_click" Content="Registrar Professor" HorizontalAlignment="Left" Height="27" Margin="15,134,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Visibility="Hidden"  Click="RegistroC_click" Content="Registrar Curso" HorizontalAlignment="Left" Height="27" Margin="15,166,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Visibility="Hidden"  Click="ListaC_click" Content="Lista de Cursos" HorizontalAlignment="Left" Height="27" Margin="127,68,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Visibility="Hidden"  Click="ListaP_click" Content="Lista de Professores" HorizontalAlignment="Left" Height="28" Margin="127,152,0,0" VerticalAlignment="Top" Width="92"/>
+
+
+    </Grid>
+</Window>

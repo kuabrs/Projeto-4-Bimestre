@@ -1,0 +1,25 @@
+﻿<Window x:Class="DiretoriaAcademica.ProfessorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiretoriaAcademica"
+        mc:Ignorable="d"
+        Title="Cadastro Professor" Height="300" Width="400">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="57,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44"/>
+        <Button Content="Listar" HorizontalAlignment="Left" Margin="56,84,0,0" VerticalAlignment="Top" Width="45" Height="26"/>
+        <Button Content="Cadastar" HorizontalAlignment="Left" Margin="111,84,0,0" VerticalAlignment="Top" Width="65" Height="26"/>
+        <Button Content="Excluir" HorizontalAlignment="Left" Margin="184,84,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="62,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="17" RenderTransformOrigin="-0.465,0.565"><Run Language="pt-br" Text="Id"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="112,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"><Run Language="pt-br" Text="Nome"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="184,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63"><Run Language="pt-br" Text="Matricula"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="256,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"><Run Language="pt-br" Text="Id "/><Run Text="Diretoria"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="112,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="184,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="252,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61"/>
+        <Button Content="Atualizar" HorizontalAlignment="Left" Height="26" Margin="252,84,0,0" VerticalAlignment="Top" Width="72"/>
+        <ListBox x:Name="listProfessores" HorizontalAlignment="Center" Height="115" Margin="6,125,6,0" VerticalAlignment="Top" Width="330"/>
+
+    </Grid>
+</Window>
