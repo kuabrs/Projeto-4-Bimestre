@@ -23,5 +23,25 @@ namespace DiretoriaAcademica
         {
             InitializeComponent();
         }
+
+        private void ListClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void excluirclick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Cadastroclick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AttClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

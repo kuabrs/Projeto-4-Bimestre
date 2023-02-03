@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20211011110001\\source\\repos\\Diretoria\\DiretoriaAcademica\\DiretoriaAcademica.csproj": {}
+    "C:\\Users\\20211011110001\\Source\\Repos\\kuabrs\\Projeto-4-Bimestre\\DiretoriaAcademica\\DiretoriaAcademica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20211011110001\\source\\repos\\Diretoria\\DiretoriaAcademica\\DiretoriaAcademica.csproj": {
+    "C:\\Users\\20211011110001\\Source\\Repos\\kuabrs\\Projeto-4-Bimestre\\DiretoriaAcademica\\DiretoriaAcademica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20211011110001\\source\\repos\\Diretoria\\DiretoriaAcademica\\DiretoriaAcademica.csproj",
+        "projectUniqueName": "C:\\Users\\20211011110001\\Source\\Repos\\kuabrs\\Projeto-4-Bimestre\\DiretoriaAcademica\\DiretoriaAcademica.csproj",
         "projectName": "DiretoriaAcademica",
-        "projectPath": "C:\\Users\\20211011110001\\source\\repos\\Diretoria\\DiretoriaAcademica\\DiretoriaAcademica.csproj",
+        "projectPath": "C:\\Users\\20211011110001\\Source\\Repos\\kuabrs\\Projeto-4-Bimestre\\DiretoriaAcademica\\DiretoriaAcademica.csproj",
         "packagesPath": "C:\\Users\\20211011110001\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20211011110001\\source\\repos\\Diretoria\\DiretoriaAcademica\\obj\\",
+        "outputPath": "C:\\Users\\20211011110001\\Source\\Repos\\kuabrs\\Projeto-4-Bimestre\\DiretoriaAcademica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20211011110001\\AppData\\Roaming\\NuGet\\NuGet.Config",

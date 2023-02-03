@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\20211011110001\source\repos\Diretoria\DiretoriaAcademica\obj\Debug\net5.0-windows\
+C:\Users\20211011110001\Source\Repos\kuabrs\Projeto-4-Bimestre\DiretoriaAcademica\obj\Debug\net5.0-windows\
 DiretoriaAcademica
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\20211011110001\source\repos\Diretoria\DiretoriaAcademica\App.xaml
+C:\Users\20211011110001\Source\Repos\kuabrs\Projeto-4-Bimestre\DiretoriaAcademica\App.xaml
 8-922263999
 
-121248832256
+18-101901812
 193-1891726104
 Cad_Curso_DiretoriaWindow.xaml;Cad_Prof_DiretoriaWindow.xaml;CursoWindow.xaml;DiretoriaWindow.xaml;List_Curso_DiretoriaWindow.xaml;List_Prof_DiretoriaWindow.xaml;MainWindow.xaml;ProfessorWindow.xaml;
 
-True
+False
 

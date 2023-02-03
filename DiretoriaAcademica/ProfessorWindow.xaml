@@ -8,9 +8,9 @@
         Title="Cadastro Professor" Height="300" Width="400">
     <Grid>
         <TextBox HorizontalAlignment="Left" Height="21" Margin="57,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44"/>
-        <Button Content="Listar" HorizontalAlignment="Left" Margin="56,84,0,0" VerticalAlignment="Top" Width="45" Height="26"/>
-        <Button Content="Cadastar" HorizontalAlignment="Left" Margin="111,84,0,0" VerticalAlignment="Top" Width="65" Height="26"/>
-        <Button Content="Excluir" HorizontalAlignment="Left" Margin="184,84,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <Button Content="Listar" HorizontalAlignment="Left" Margin="56,84,0,0" VerticalAlignment="Top" Width="45" Height="26" Click="ListClick"/>
+        <Button Click="Cadastroclick" Content="Cadastar" HorizontalAlignment="Left" Margin="111,84,0,0" VerticalAlignment="Top" Width="65" Height="26"/>
+        <Button Click="excluirclick" Content="Excluir" HorizontalAlignment="Left" Margin="184,84,0,0" VerticalAlignment="Top" Height="26" Width="56" />
         <TextBlock HorizontalAlignment="Left" Height="25" Margin="62,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="17" RenderTransformOrigin="-0.465,0.565"><Run Language="pt-br" Text="Id"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="25" Margin="112,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"><Run Language="pt-br" Text="Nome"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17" Margin="184,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63"><Run Language="pt-br" Text="Matricula"/></TextBlock>
@@ -18,7 +18,7 @@
         <TextBox HorizontalAlignment="Left" Height="21" Margin="112,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
         <TextBox HorizontalAlignment="Left" Height="21" Margin="184,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53"/>
         <TextBox HorizontalAlignment="Left" Height="21" Margin="252,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61"/>
-        <Button Content="Atualizar" HorizontalAlignment="Left" Height="26" Margin="252,84,0,0" VerticalAlignment="Top" Width="72"/>
+        <Button Content="Atualizar" HorizontalAlignment="Left" Height="26" Margin="252,84,0,0" VerticalAlignment="Top" Width="72" Click="AttClick"/>
         <ListBox x:Name="listProfessores" HorizontalAlignment="Center" Height="115" Margin="6,125,6,0" VerticalAlignment="Top" Width="330"/>
 
     </Grid>
